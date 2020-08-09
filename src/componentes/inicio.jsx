@@ -33,7 +33,7 @@ const Inicio = () => {
     }
 
     const [currendProduct, setCurrendtProduct] = useState({
-        id: 'aaaaaa', nombre: 'aaaaa', precio: 0, descripcion: 'aaaaa'
+        id: '', nombre: '', precio: 0, descripcion: ''
     })
 
     const [mostrarEdit, setMostarEdit] = useState(false)
